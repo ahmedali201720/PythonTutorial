@@ -33,9 +33,9 @@ printVal("Python")
 #merge function with loops and conditions
 def measureTemp (temp):
     if temp> 37:
-        return 'too hot'
+        return 'too hot and deadly'
     elif temp<37:
-        return 'Too cold'
+        return 'Quitely cold and cold'
     return 'normal'
 
 print (measureTemp(37))
@@ -77,7 +77,7 @@ print ("Values outside the function: ", mylist)
 
 
 # 1-  define function with explicit parameter passing
-def printinfo( name, age=100 ):
+def printinfo( name, age=80 ):
    print ("Name: ", name)
    print ("Age ", age)
    return
@@ -89,6 +89,10 @@ printinfo(name="layla")
 def dosum(x, y=2, z=3):
     sum=x+y+z
     print(sum)
+
+def doSquare(x=8):
+    saquare=x*x
+    print(square)
 
 dosum(0,5)
 
