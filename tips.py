@@ -11,8 +11,8 @@ y=5
 temp=x
 x=y
 y=temp
-print(x)
-print(y)
+print('The value of x after swapping: {}'.format(x))
+print('The value of y after swapping: {}'.format(y))
 
 #python way
 x,y=3,4
@@ -56,7 +56,7 @@ print(b)
 # This enumerate object can then be used directly in for loops or be converted into a list of tuples
 # using list() method.
 
-lang=["Arabic", "English", "Frensh"]
+lang=["Arabic", "English", "Frensh", "Deutsch"]
 for i, l in enumerate(lang):
     print("Element value ", l,)
     print("Element index ", i)
